@@ -53,7 +53,6 @@ public class Main {
                 return;
             }
 
-            // ثبت‌نام کاربر جدید
             User user = new User(fn, ln, age, email, pw);
             session.save(user);
             tx.commit();

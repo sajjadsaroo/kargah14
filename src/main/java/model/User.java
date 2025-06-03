@@ -16,9 +16,6 @@ public class User {
     private String email;
     private String password;
 
-    // Getters & Setters
-
-    // Constructorها
     public User() {}
     public User(String firstName, String lastName, int age, String email, String password) {
         this.firstName = firstName;
